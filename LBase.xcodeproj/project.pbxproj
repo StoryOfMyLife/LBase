@@ -18,6 +18,9 @@
 		BF13B8F81AD3D16A00F13BE4 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B8F71AD3D16A00F13BE4 /* LViewController.m */; };
 		BF13B8FE1AD3D2C100F13BE4 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B8FD1AD3D2C100F13BE4 /* UIView+Sizes.m */; };
 		BF13B9011AD3DF4900F13BE4 /* LTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B9001AD3DF4900F13BE4 /* LTableViewController.m */; };
+		BF13B9081AD4140500F13BE4 /* LTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B9071AD4140500F13BE4 /* LTableViewCell.m */; };
+		BF13B90B1AD415FF00F13BE4 /* LTableViewCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B90A1AD415FF00F13BE4 /* LTableViewCellItem.m */; };
+		BF13B90E1AD42A9300F13BE4 /* TestCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B90D1AD42A9300F13BE4 /* TestCellItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,15 @@
 		BF13B8FD1AD3D2C100F13BE4 /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Sizes.m"; path = "Base/UIView+Sizes.m"; sourceTree = "<group>"; };
 		BF13B8FF1AD3DF4900F13BE4 /* LTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTableViewController.h; path = Base/LTableViewController.h; sourceTree = "<group>"; };
 		BF13B9001AD3DF4900F13BE4 /* LTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTableViewController.m; path = Base/LTableViewController.m; sourceTree = "<group>"; };
+		BF13B9021AD3FCFD00F13BE4 /* MacroHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroHelper.h; path = Base/MacroHelper.h; sourceTree = "<group>"; };
+		BF13B9041AD4058900F13BE4 /* LBase-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LBase-prefix.pch"; sourceTree = "<group>"; };
+		BF13B9051AD40FB900F13BE4 /* LTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableViewDelegate.h; sourceTree = "<group>"; };
+		BF13B9061AD4140500F13BE4 /* LTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTableViewCell.h; path = Base/LTableViewCell.h; sourceTree = "<group>"; };
+		BF13B9071AD4140500F13BE4 /* LTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTableViewCell.m; path = Base/LTableViewCell.m; sourceTree = "<group>"; };
+		BF13B9091AD415FF00F13BE4 /* LTableViewCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTableViewCellItem.h; path = Base/LTableViewCellItem.h; sourceTree = "<group>"; };
+		BF13B90A1AD415FF00F13BE4 /* LTableViewCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTableViewCellItem.m; path = Base/LTableViewCellItem.m; sourceTree = "<group>"; };
+		BF13B90C1AD42A9300F13BE4 /* TestCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCellItem.h; sourceTree = "<group>"; };
+		BF13B90D1AD42A9300F13BE4 /* TestCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCellItem.m; sourceTree = "<group>"; };
 		F7AADEE185E6A94D4A413756 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +126,7 @@
 		BF13B8CF1AD3D0AA00F13BE4 /* LBase */ = {
 			isa = PBXGroup;
 			children = (
+				BF13B9041AD4058900F13BE4 /* LBase-prefix.pch */,
 				BF13B8D41AD3D0AA00F13BE4 /* AppDelegate.h */,
 				BF13B8D51AD3D0AA00F13BE4 /* AppDelegate.m */,
 				BF13B8D71AD3D0AA00F13BE4 /* ViewController.h */,
@@ -122,12 +135,20 @@
 				BF13B8DD1AD3D0AA00F13BE4 /* Images.xcassets */,
 				BF13B8DF1AD3D0AA00F13BE4 /* LaunchScreen.xib */,
 				BF13B8D01AD3D0AA00F13BE4 /* Supporting Files */,
+				BF13B9051AD40FB900F13BE4 /* LTableViewDelegate.h */,
+				BF13B9021AD3FCFD00F13BE4 /* MacroHelper.h */,
 				BF13B8FC1AD3D2C100F13BE4 /* UIView+Sizes.h */,
 				BF13B8FD1AD3D2C100F13BE4 /* UIView+Sizes.m */,
 				BF13B8F61AD3D16A00F13BE4 /* LViewController.h */,
 				BF13B8F71AD3D16A00F13BE4 /* LViewController.m */,
 				BF13B8FF1AD3DF4900F13BE4 /* LTableViewController.h */,
 				BF13B9001AD3DF4900F13BE4 /* LTableViewController.m */,
+				BF13B9061AD4140500F13BE4 /* LTableViewCell.h */,
+				BF13B9071AD4140500F13BE4 /* LTableViewCell.m */,
+				BF13B9091AD415FF00F13BE4 /* LTableViewCellItem.h */,
+				BF13B90A1AD415FF00F13BE4 /* LTableViewCellItem.m */,
+				BF13B90C1AD42A9300F13BE4 /* TestCellItem.h */,
+				BF13B90D1AD42A9300F13BE4 /* TestCellItem.m */,
 			);
 			path = LBase;
 			sourceTree = "<group>";
@@ -297,7 +318,10 @@
 				BF13B8D91AD3D0AA00F13BE4 /* ViewController.m in Sources */,
 				BF13B8D61AD3D0AA00F13BE4 /* AppDelegate.m in Sources */,
 				BF13B8D31AD3D0AA00F13BE4 /* main.m in Sources */,
+				BF13B9081AD4140500F13BE4 /* LTableViewCell.m in Sources */,
+				BF13B90B1AD415FF00F13BE4 /* LTableViewCellItem.m in Sources */,
 				BF13B8FE1AD3D2C100F13BE4 /* UIView+Sizes.m in Sources */,
+				BF13B90E1AD42A9300F13BE4 /* TestCellItem.m in Sources */,
 				BF13B8F81AD3D16A00F13BE4 /* LViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +445,8 @@
 			baseConfigurationReference = F7AADEE185E6A94D4A413756 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/LBase/LBase-prefix.pch";
 				INFOPLIST_FILE = LBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +458,8 @@
 			baseConfigurationReference = 90917E97A3F73EBEE369F9F4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/LBase/LBase-prefix.pch";
 				INFOPLIST_FILE = LBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,7 +7,12 @@
 //
 
 #import "LViewController.h"
+#import "LTableViewDelegate.h"
 
-@interface LTableViewController : LViewController
+@interface LTableViewController : LViewController <UITableViewDelegate, UITableViewDataSource, LTableViewDelegate>
+
+@property (nonatomic, strong) UITableView *tableView;
+
+@property (nonatomic, strong) NSArray *items;
 
 @end

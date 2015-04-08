@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TestCellItem.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    TestCellItem *item = [[TestCellItem alloc] initWithDictionary:@{@"title" : @"lty"} error:nil];
+    self.items = @[@[item, item], @[item]];
+    
+    [item applyActionBlock:^(UITableView *tableView, NSIndexPath *indexPath) {
+        NSLog(@"cell %ld in section %ld tapped", (long)indexPath.row, (long)indexPath.section);
+    }];
 }
 
 @end
