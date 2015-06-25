@@ -7,8 +7,7 @@
 //
 
 #import "JSONModel.h"
-
-@class LTableViewCell;
+#import "LTableViewCell.h"
 
 typedef void(^ActionBlock)(UITableView *tableView, NSIndexPath *indexPath);
 

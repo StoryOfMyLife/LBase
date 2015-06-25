@@ -7,7 +7,6 @@
 //
 
 #import "LTableViewCellItem.h"
-#import "LTableViewCell.h"
 
 @implementation LTableViewCellItem
 
@@ -23,7 +22,7 @@
 
 - (CGFloat)heightForTableView:(UITableView *)tableView
 {
-    return 44;
+    return [self.cell systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;;
 }
 
 @end
