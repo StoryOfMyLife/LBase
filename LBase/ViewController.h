@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LTableViewController.h"
 
-@interface ViewController : LTableViewController
+@interface ViewController : LViewController
 
 @end
 

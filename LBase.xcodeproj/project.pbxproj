@@ -15,12 +15,13 @@
 		BF13B8DE1AD3D0AA00F13BE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF13B8DD1AD3D0AA00F13BE4 /* Images.xcassets */; };
 		BF13B8E11AD3D0AA00F13BE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF13B8DF1AD3D0AA00F13BE4 /* LaunchScreen.xib */; };
 		BF13B8ED1AD3D0AA00F13BE4 /* LBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B8EC1AD3D0AA00F13BE4 /* LBaseTests.m */; };
-		BF13B8F81AD3D16A00F13BE4 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B8F71AD3D16A00F13BE4 /* LViewController.m */; };
-		BF13B8FE1AD3D2C100F13BE4 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B8FD1AD3D2C100F13BE4 /* UIView+Sizes.m */; };
-		BF13B9011AD3DF4900F13BE4 /* LTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B9001AD3DF4900F13BE4 /* LTableViewController.m */; };
-		BF13B9081AD4140500F13BE4 /* LTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B9071AD4140500F13BE4 /* LTableViewCell.m */; };
-		BF13B90B1AD415FF00F13BE4 /* LTableViewCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B90A1AD415FF00F13BE4 /* LTableViewCellItem.m */; };
 		BF13B90E1AD42A9300F13BE4 /* TestCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13B90D1AD42A9300F13BE4 /* TestCellItem.m */; };
+		BFCB9D091B43BE8C00A713DA /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCB9D081B43BE8C00A713DA /* UINavigationController+Rotation.m */; };
+		BFD1642A1B27FFF100BABD09 /* LTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD1641F1B27FFF000BABD09 /* LTableViewCell.m */; };
+		BFD1642B1B27FFF100BABD09 /* LTableViewCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD164211B27FFF100BABD09 /* LTableViewCellItem.m */; };
+		BFD1642C1B27FFF100BABD09 /* LTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD164231B27FFF100BABD09 /* LTableViewController.m */; };
+		BFD1642D1B27FFF100BABD09 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD164261B27FFF100BABD09 /* LViewController.m */; };
+		BFD1642E1B27FFF100BABD09 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD164291B27FFF100BABD09 /* UIView+Sizes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,21 +50,23 @@
 		BF13B8E61AD3D0AA00F13BE4 /* LBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF13B8EB1AD3D0AA00F13BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF13B8EC1AD3D0AA00F13BE4 /* LBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBaseTests.m; sourceTree = "<group>"; };
-		BF13B8F61AD3D16A00F13BE4 /* LViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LViewController.h; path = Base/LViewController.h; sourceTree = "<group>"; };
-		BF13B8F71AD3D16A00F13BE4 /* LViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LViewController.m; path = Base/LViewController.m; sourceTree = "<group>"; };
-		BF13B8FC1AD3D2C100F13BE4 /* UIView+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Sizes.h"; path = "Base/UIView+Sizes.h"; sourceTree = "<group>"; };
-		BF13B8FD1AD3D2C100F13BE4 /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Sizes.m"; path = "Base/UIView+Sizes.m"; sourceTree = "<group>"; };
-		BF13B8FF1AD3DF4900F13BE4 /* LTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTableViewController.h; path = Base/LTableViewController.h; sourceTree = "<group>"; };
-		BF13B9001AD3DF4900F13BE4 /* LTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTableViewController.m; path = Base/LTableViewController.m; sourceTree = "<group>"; };
-		BF13B9021AD3FCFD00F13BE4 /* MacroHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroHelper.h; path = Base/MacroHelper.h; sourceTree = "<group>"; };
 		BF13B9041AD4058900F13BE4 /* LBase-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LBase-prefix.pch"; sourceTree = "<group>"; };
-		BF13B9051AD40FB900F13BE4 /* LTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableViewDelegate.h; sourceTree = "<group>"; };
-		BF13B9061AD4140500F13BE4 /* LTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTableViewCell.h; path = Base/LTableViewCell.h; sourceTree = "<group>"; };
-		BF13B9071AD4140500F13BE4 /* LTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTableViewCell.m; path = Base/LTableViewCell.m; sourceTree = "<group>"; };
-		BF13B9091AD415FF00F13BE4 /* LTableViewCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTableViewCellItem.h; path = Base/LTableViewCellItem.h; sourceTree = "<group>"; };
-		BF13B90A1AD415FF00F13BE4 /* LTableViewCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTableViewCellItem.m; path = Base/LTableViewCellItem.m; sourceTree = "<group>"; };
 		BF13B90C1AD42A9300F13BE4 /* TestCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCellItem.h; sourceTree = "<group>"; };
 		BF13B90D1AD42A9300F13BE4 /* TestCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCellItem.m; sourceTree = "<group>"; };
+		BFCB9D071B43BE8C00A713DA /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Rotation.h"; path = "Base/Category/UINavigationController+Rotation.h"; sourceTree = "<group>"; };
+		BFCB9D081B43BE8C00A713DA /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Rotation.m"; path = "Base/Category/UINavigationController+Rotation.m"; sourceTree = "<group>"; };
+		BFD1641E1B27FFF000BABD09 /* LTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableViewCell.h; sourceTree = "<group>"; };
+		BFD1641F1B27FFF000BABD09 /* LTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTableViewCell.m; sourceTree = "<group>"; };
+		BFD164201B27FFF100BABD09 /* LTableViewCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableViewCellItem.h; sourceTree = "<group>"; };
+		BFD164211B27FFF100BABD09 /* LTableViewCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTableViewCellItem.m; sourceTree = "<group>"; };
+		BFD164221B27FFF100BABD09 /* LTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableViewController.h; sourceTree = "<group>"; };
+		BFD164231B27FFF100BABD09 /* LTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTableViewController.m; sourceTree = "<group>"; };
+		BFD164241B27FFF100BABD09 /* LTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTableViewDelegate.h; sourceTree = "<group>"; };
+		BFD164251B27FFF100BABD09 /* LViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LViewController.h; sourceTree = "<group>"; };
+		BFD164261B27FFF100BABD09 /* LViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LViewController.m; sourceTree = "<group>"; };
+		BFD164271B27FFF100BABD09 /* MacroHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroHelper.h; sourceTree = "<group>"; };
+		BFD164281B27FFF100BABD09 /* UIView+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes.h"; sourceTree = "<group>"; };
+		BFD164291B27FFF100BABD09 /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes.m"; sourceTree = "<group>"; };
 		F7AADEE185E6A94D4A413756 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +129,7 @@
 		BF13B8CF1AD3D0AA00F13BE4 /* LBase */ = {
 			isa = PBXGroup;
 			children = (
+				BFCB9D061B43BE6E00A713DA /* Category */,
 				BF13B9041AD4058900F13BE4 /* LBase-prefix.pch */,
 				BF13B8D41AD3D0AA00F13BE4 /* AppDelegate.h */,
 				BF13B8D51AD3D0AA00F13BE4 /* AppDelegate.m */,
@@ -135,18 +139,6 @@
 				BF13B8DD1AD3D0AA00F13BE4 /* Images.xcassets */,
 				BF13B8DF1AD3D0AA00F13BE4 /* LaunchScreen.xib */,
 				BF13B8D01AD3D0AA00F13BE4 /* Supporting Files */,
-				BF13B9051AD40FB900F13BE4 /* LTableViewDelegate.h */,
-				BF13B9021AD3FCFD00F13BE4 /* MacroHelper.h */,
-				BF13B8FC1AD3D2C100F13BE4 /* UIView+Sizes.h */,
-				BF13B8FD1AD3D2C100F13BE4 /* UIView+Sizes.m */,
-				BF13B8F61AD3D16A00F13BE4 /* LViewController.h */,
-				BF13B8F71AD3D16A00F13BE4 /* LViewController.m */,
-				BF13B8FF1AD3DF4900F13BE4 /* LTableViewController.h */,
-				BF13B9001AD3DF4900F13BE4 /* LTableViewController.m */,
-				BF13B9061AD4140500F13BE4 /* LTableViewCell.h */,
-				BF13B9071AD4140500F13BE4 /* LTableViewCell.m */,
-				BF13B9091AD415FF00F13BE4 /* LTableViewCellItem.h */,
-				BF13B90A1AD415FF00F13BE4 /* LTableViewCellItem.m */,
 				BF13B90C1AD42A9300F13BE4 /* TestCellItem.h */,
 				BF13B90D1AD42A9300F13BE4 /* TestCellItem.m */,
 			);
@@ -177,6 +169,35 @@
 				BF13B8EB1AD3D0AA00F13BE4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFCB9D061B43BE6E00A713DA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1641D1B27FFF000BABD09 /* Base */,
+				BFCB9D071B43BE8C00A713DA /* UINavigationController+Rotation.h */,
+				BFCB9D081B43BE8C00A713DA /* UINavigationController+Rotation.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		BFD1641D1B27FFF000BABD09 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BFD1641E1B27FFF000BABD09 /* LTableViewCell.h */,
+				BFD1641F1B27FFF000BABD09 /* LTableViewCell.m */,
+				BFD164201B27FFF100BABD09 /* LTableViewCellItem.h */,
+				BFD164211B27FFF100BABD09 /* LTableViewCellItem.m */,
+				BFD164221B27FFF100BABD09 /* LTableViewController.h */,
+				BFD164231B27FFF100BABD09 /* LTableViewController.m */,
+				BFD164241B27FFF100BABD09 /* LTableViewDelegate.h */,
+				BFD164251B27FFF100BABD09 /* LViewController.h */,
+				BFD164261B27FFF100BABD09 /* LViewController.m */,
+				BFD164271B27FFF100BABD09 /* MacroHelper.h */,
+				BFD164281B27FFF100BABD09 /* UIView+Sizes.h */,
+				BFD164291B27FFF100BABD09 /* UIView+Sizes.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,15 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF13B9011AD3DF4900F13BE4 /* LTableViewController.m in Sources */,
+				BFD1642C1B27FFF100BABD09 /* LTableViewController.m in Sources */,
 				BF13B8D91AD3D0AA00F13BE4 /* ViewController.m in Sources */,
 				BF13B8D61AD3D0AA00F13BE4 /* AppDelegate.m in Sources */,
+				BFD1642A1B27FFF100BABD09 /* LTableViewCell.m in Sources */,
+				BFD1642B1B27FFF100BABD09 /* LTableViewCellItem.m in Sources */,
 				BF13B8D31AD3D0AA00F13BE4 /* main.m in Sources */,
-				BF13B9081AD4140500F13BE4 /* LTableViewCell.m in Sources */,
-				BF13B90B1AD415FF00F13BE4 /* LTableViewCellItem.m in Sources */,
-				BF13B8FE1AD3D2C100F13BE4 /* UIView+Sizes.m in Sources */,
 				BF13B90E1AD42A9300F13BE4 /* TestCellItem.m in Sources */,
-				BF13B8F81AD3D16A00F13BE4 /* LViewController.m in Sources */,
+				BFD1642E1B27FFF100BABD09 /* UIView+Sizes.m in Sources */,
+				BFD1642D1B27FFF100BABD09 /* LViewController.m in Sources */,
+				BFCB9D091B43BE8C00A713DA /* UINavigationController+Rotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

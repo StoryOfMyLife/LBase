@@ -268,10 +268,15 @@
     
 }
 
-//- (BOOL)shouldAutorotate
-//{
-//    return YES;
-//}
+- (BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskAll;
+}
 
 
 @end
